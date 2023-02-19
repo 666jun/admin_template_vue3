@@ -1,0 +1,43 @@
+//fadeInUp
+.fadeInUp-move,
+.fadeInUp-enter-active,
+.fadeInUp-leave-active {
+	transition: all 0.6s ease;
+}
+.fadeInUp-enter-from,
+.fadeInUp-leave-to {
+	transform: translateY(100%);
+	opacity: 0;
+}
+.fadeInUp-leave-active {
+	position: absolute;
+}
+
+//fadeInDown
+.fadeInDown-move,
+.fadeInDown-enter-active,
+.fadeInDown-leave-active {
+	transition: all .6s ease;
+}
+.fadeInDown-enter-from,
+.fadeInDown-leave-to {
+	transform: translateY(-100%);
+}
+.fadeInDown-leave-active {
+	// position: absolute;
+}
+
+//fadeInRight
+.fadeInRight-move,
+.fadeInRight-enter-active,
+.fadeInRight-leave-active {
+	transition: all 0.6s ease;
+}
+.fadeInRight-enter-from,
+.fadeInRight-leave-to {
+	transform: translateX(100%);
+	opacity: 0;
+}
+.fadeInRight-leave-active {
+	position: absolute;
+}

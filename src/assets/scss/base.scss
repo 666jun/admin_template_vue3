@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#nprogress .bar {
+	background: rgb(251, 0, 0) !important;
+}
+
+.custom-btn {
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-1{
+  padding: 5px 15px;
+  background-color: rgb(254, 100, 49);
+  box-shadow: 0 0 6px rgba(254, 100, 49, 0.5);
+  color: #FFF;
+  transition: box-shadow .4s ease;
+  &:hover{
+    box-shadow: 2px 2px 8px rgba(254, 100, 49, 1);
+  }
+}
+
+.btn-2{
+  padding: 5px 15px;
+  background-color: rgb(254, 100, 49);
+  box-shadow: 0 0 6px rgba(254, 100, 49, 0.5);
+  color: #FFF;
+  transition: box-shadow .4s ease;
+  &:hover{
+    box-shadow: 2px 2px 8px rgba(254, 100, 49, 1);
+  }
+}
+
+
+
